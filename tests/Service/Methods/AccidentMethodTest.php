@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Tests\Service;
+namespace App\Tests\Service\Methods;
 
 use App\DTO\DTOInterface;
-use App\Service\AccidentMethod;
+use App\Service\Methods\AccidentMethod;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

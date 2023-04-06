@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace App\Strategy;
 
-use App\Service\AccidentMethod;
-use App\Service\HandleMethodInterface;
-use App\Service\InspectionMethod;
+use App\Service\Methods\AccidentMethod;
+use App\Service\Methods\HandleMethodInterface;
+use App\Service\Methods\InspectionMethod;
 use Doctrine\ORM\EntityManagerInterface;
 
 class TypeStrategy

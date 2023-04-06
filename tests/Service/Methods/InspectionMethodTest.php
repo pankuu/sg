@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Tests\Service;
+namespace App\Tests\Service\Methods;
 
 use App\DTO\DTOInterface;
-use App\Service\InspectionMethod;
+use App\Service\Methods\InspectionMethod;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
