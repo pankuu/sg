@@ -41,3 +41,21 @@
 
 # Embedded web-server pid file
 /.web-server-pid
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###
+
+.idea/
+
+.env.local
+
+.phpunit.cache/*
+
+reports/*
