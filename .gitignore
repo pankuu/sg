@@ -55,3 +55,7 @@
 .idea/
 
 .env.local
+
+.phpunit.cache/*
+
+reports/*
