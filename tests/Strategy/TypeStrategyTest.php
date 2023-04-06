@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace App\Tests\Strategy;
 
-use App\Service\AccidentMethod;
-use App\Service\InspectionMethod;
+use App\Service\Methods\AccidentMethod;
+use App\Service\Methods\InspectionMethod;
 use App\Strategy\TypeStrategy;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;

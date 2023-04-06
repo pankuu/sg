@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Service;
+namespace App\Service\Methods;
 
 use App\DTO\AccidentDTO;
 use App\DTO\DTOInterface;
@@ -77,6 +77,6 @@ class AccidentMethod extends AbstractTypeMethod
      */
     private function getDictionaryFromYamlFile(string $filename): array
     {
-        return Yaml::parseFile(dirname(__DIR__, 2)."/config/dictionary/{$filename}.yaml");
+        return Yaml::parseFile(dirname(__DIR__, 3)."/config/dictionary/{$filename}.yaml");
     }
 }

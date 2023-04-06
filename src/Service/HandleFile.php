@@ -7,6 +7,7 @@ namespace App\Service;
 use App\Enum\MethodType;
 use App\Exception\DescriptionRepeatedException;
 use App\Exception\InvalidFileExtensionException;
+use App\Service\Methods\HandleMethodInterface;
 use App\Strategy\TypeStrategy;
 use App\Validator\FileValidator;
 use Doctrine\ORM\EntityManagerInterface;
